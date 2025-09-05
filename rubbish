@@ -1,0 +1,15 @@
+/*@keyframes spin {
+        0%{
+            
+        }
+        50%{
+            background-color: pink;
+            border-radius: 700px;
+      
+            padding: 100px;
+        }
+        100%{
+            transform: rotate(360deg);
+          background-color: blue;
+        }
+    }

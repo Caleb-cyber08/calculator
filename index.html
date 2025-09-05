@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/caculator.css">
+</head>
+<body>
+    <style>
+
+    </style>
+    <div id="caculator">
+     <input id="display" readonly>
+     <div style="
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap:0px;
+     "id="keys">
+        <button style="background-color: orange;" onclick="appendToDisplay('+')">+</button>
+<button onclick="appendToDisplay('7')">7</button>
+<button onclick="appendToDisplay('8')">8</button>
+<button onclick="appendToDisplay('9')">9</button>
+<button style="background-color: orange;"onclick="appendToDisplay('-')">-</button>
+<button onclick="appendToDisplay('4')">4</button>
+<button onclick="appendToDisplay('5')">5</button>
+<button  onclick="appendToDisplay('6')">6</button>
+<button style="background-color: orange;"onclick="appendToDisplay('*')">*</button>
+<button onclick="appendToDisplay('1')">1</button>
+<button onclick="appendToDisplay('2')">2</button>
+<button onclick="appendToDisplay('3')">3</button>
+<button style="background-color: orange;"onclick="appendToDisplay('/')">/</button>
+<button onclick="appendToDisplay('0')">0</button>
+<button onclick="appendToDisplay('.')">.</button>
+<button onclick="calculate()">=</button>
+<button onclick="clearDisplay()">c</button>
+
+
+<button><a href="sign.html">Click me</a></button>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="/assets/js/index.js"></script>
+</body>
+</html>
